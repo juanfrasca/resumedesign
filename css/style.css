@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+
+html{
+    font-size: 62,5%;
+}
+
+body{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1.6rem;
+}
+
+section{
+    padding-top: 12rem;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    color: #146e99;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+img{
+    width: auto;
+    height: 4rem;
+}
+
+.banderas{
+    width: 5rem;
+    height: 4rem;
+}
+
+p{
+    line-height: 2rem;
+    padding: 0 6rem;
+    text-align: center;
+}
+
+header{
+    width: 100%;
+    height: 10rem;
+    background-color: #146e99;
+    color: white;
+    padding: 0.5rem;
+    margin: 0 0 1rem 0;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+}
+
+#encabezado>a:hover{
+    color: white;
+}
+
+audio{
+    width: 20%; 
+}
+
+#encabezado{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 1em;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5em;
+    font-size: 1.4rem;
+}
+
+nav>a{
+    width: 25%;
+    margin: 0 2rem;
+    text-align: center;
+}
+
+
+nav>a:link{
+    color: whitesmoke;
+}
+
+nav>a:visited{
+    color: whitesmoke;
+}
+
+nav>a:hover{
+    color: cadetblue;
+}
+
+#estudios-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+#contacto>div>a:hover{
+    color: blueviolet;
+}
+
+#datos-contacto{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    column-gap: 2.4rem;
+}
+
+#datos-ubicacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+#inputs{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+}
+
+.label-input{
+    display: flex;
+    flex-direction: column;
+}
+
+#fondo-formulario{
+    width: 100%;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+}
+
+label, input, textarea{
+    display: block;
+    width: 100%;
+    padding: 0.6rem 1rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 4px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+label{
+    border: none;
+}
+
+input[type=submit] {
+    margin-top: 1.2rem;
+    color: whitesmoke;
+    background-color: #146f83;
+}
+
+input[type=submit]:hover {
+    background-color: #0e505f;
+}
+
+textarea{
+    width: 100%;
+    height: 6rem;
+    resize: none;
+}
+
+#div-textarea{
+    width: 40%;
+}
+
+footer{
+    width: 100%;
+    background-color: #146e83;
+    color: gray;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 0.8rem 0;
+    margin-top: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer>a:hover{
+    color: white;
+}
+
+
+address{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1rem;
+}
+
+address>a:hover{
+    color:white;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item{
+    width: 5.5rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+li{
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;  
+}
