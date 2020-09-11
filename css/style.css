@@ -29,6 +29,10 @@ h2{
     margin: 1rem 0;
 }
 
+h5{
+    margin: 1rem 0;
+}
+
 a{
     text-decoration: none;
 }
@@ -112,9 +116,10 @@ nav>a:hover{
 }
 
 #estudios-div div{
-    background-color: rgb(201, 201, 201);
+    background-color: #f0f0f0;
     border-radius: 4px;
     padding: 0.5rem;
+    width: 20%;
 }
 
 #contacto>div>a:hover{
@@ -210,8 +215,10 @@ footer{
     padding: 1rem 0;
     display: flex;
     flex-direction: column;
-    row-gap: 0.8rem;
+    justify-content: center;
+    row-gap: 0.4rem;
     align-items: center;
+    height: 2rem;
 }
 
 footer>a:hover{
@@ -220,7 +227,7 @@ footer>a:hover{
 
 
 address{
-    width: 25%;
+    width: 30%;
     display: flex;
     justify-content: space-between;
     font-size: 1.1rem;
@@ -244,11 +251,20 @@ address>a:hover{
     width: 6rem;
     padding: 0.4rem;
     margin: 0.4rem;
-    background-color: rgb(201, 201, 201);
+    background-color: #f0f0f0;
     justify-content: center;
     align-items: center;
     border-radius: 4px;
 }
 
+#tecnologia-talleres-idiomas{
+    display: flex;
+    justify-content: space-between;
+}
 
-
+/* CSS HEX */
+--spanish-viridian: #007f5fff;
+--spanish-green: #2b9348ff;
+--green-ryb: #55a630ff;
+--apple-green: #80b918ff;
+--xanthic: #eeef20ff;
