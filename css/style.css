@@ -135,23 +135,23 @@ nav>a:hover{
     width: 20%;
 }
 
-#contacto>div>a:hover{
-    color: blueviolet;
+#contacto a:hover{
+    color:/*--spanish-viridian:*/ #007f5fff;
 }
 
 #datos-contacto{
     display: flex;
     width: 100%;
     justify-content: center;
-    column-gap: 2.4rem;
+    column-gap: 1rem;
 }
-
 
 #datos-ubicacion{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 1.2rem
+    font-size: 1.2rem;
+    row-gap: 0.8rem;
 }
 
 #datos-ubicacion a:hover{
@@ -274,5 +274,3 @@ address>a:hover{
     display: flex;
     justify-content: space-around;
 }
-
-
